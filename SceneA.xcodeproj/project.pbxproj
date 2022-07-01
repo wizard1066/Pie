@@ -11,6 +11,12 @@
 		EF14CA562869A165009911B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF14CA552869A165009911B8 /* ContentView.swift */; };
 		EF14CA582869A166009911B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF14CA572869A166009911B8 /* Assets.xcassets */; };
 		EF14CA5B2869A166009911B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF14CA5A2869A166009911B8 /* Preview Assets.xcassets */; };
+		EF14CA622869A183009911B8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF14CA612869A183009911B8 /* Fonts.swift */; };
+		EF14CA642869A190009911B8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF14CA632869A190009911B8 /* GameScene.swift */; };
+		EF14CA662869A198009911B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF14CA652869A198009911B8 /* SceneDelegate.swift */; };
+		EF14CA682869A1CD009911B8 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF14CA672869A1CD009911B8 /* Common.swift */; };
+		EF14CA6A2869A282009911B8 /* Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF14CA692869A282009911B8 /* Extra.swift */; };
+		EF14CA6D286A10B4009911B8 /* Neuton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF14CA6C286A10B4009911B8 /* Neuton-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		EF14CA552869A165009911B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF14CA572869A166009911B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF14CA5A2869A166009911B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF14CA612869A183009911B8 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		EF14CA632869A190009911B8 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EF14CA652869A198009911B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF14CA672869A1CD009911B8 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		EF14CA692869A282009911B8 /* Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extra.swift; sourceTree = "<group>"; };
+		EF14CA6C286A10B4009911B8 /* Neuton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neuton-Regular.ttf"; sourceTree = "<group>"; };
+		EF14CA6E286A10C5009911B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +64,15 @@
 		EF14CA522869A165009911B8 /* SceneA */ = {
 			isa = PBXGroup;
 			children = (
+				EF14CA6E286A10C5009911B8 /* Info.plist */,
 				EF14CA532869A165009911B8 /* SceneAApp.swift */,
+				EF14CA612869A183009911B8 /* Fonts.swift */,
+				EF14CA6B286A109F009911B8 /* Fonts */,
+				EF14CA672869A1CD009911B8 /* Common.swift */,
 				EF14CA552869A165009911B8 /* ContentView.swift */,
+				EF14CA632869A190009911B8 /* GameScene.swift */,
+				EF14CA692869A282009911B8 /* Extra.swift */,
+				EF14CA652869A198009911B8 /* SceneDelegate.swift */,
 				EF14CA572869A166009911B8 /* Assets.xcassets */,
 				EF14CA592869A166009911B8 /* Preview Content */,
 			);
@@ -65,6 +85,14 @@
 				EF14CA5A2869A166009911B8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF14CA6B286A109F009911B8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EF14CA6C286A10B4009911B8 /* Neuton-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF14CA5B2869A166009911B8 /* Preview Assets.xcassets in Resources */,
+				EF14CA6D286A10B4009911B8 /* Neuton-Regular.ttf in Resources */,
 				EF14CA582869A166009911B8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF14CA662869A198009911B8 /* SceneDelegate.swift in Sources */,
 				EF14CA562869A165009911B8 /* ContentView.swift in Sources */,
+				EF14CA622869A183009911B8 /* Fonts.swift in Sources */,
+				EF14CA642869A190009911B8 /* GameScene.swift in Sources */,
+				EF14CA682869A1CD009911B8 /* Common.swift in Sources */,
+				EF14CA6A2869A282009911B8 /* Extra.swift in Sources */,
 				EF14CA542869A165009911B8 /* SceneAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +304,7 @@
 				DEVELOPMENT_TEAM = CWGS87U262;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SceneA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +334,7 @@
 				DEVELOPMENT_TEAM = CWGS87U262;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SceneA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
